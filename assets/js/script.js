@@ -41,27 +41,29 @@ function toggleMenus(module) {
   const ul = module.nextElementSibling;
   const smallTag = module.querySelector("small");
   ul.classList.toggle("hide-ul");
-  if(ul.classList.contains('hide-ul')){
-      smallTag.innerHTML = '^';
-  }else{
-     smallTag.innerHTML = '>';    
+  if (ul.classList.contains("hide-ul")) {
+    smallTag.innerHTML = "^";
+  } else {
+    smallTag.innerHTML = ">";
   }
 }
 
-
 //* toggle sidebar
-function toggleSidebar(){
-    const hamberger = document.querySelector(".hamberger");
-    const sidebar = document.querySelector(".sidebar");
-    hamberger.addEventListener('click', function(){
-        sidebar.classList.toggle("hide-sidebar");
+function toggleSidebar() {
+  const hamberger = document.querySelector(".hamberger");
+  const sidebar = document.querySelector(".sidebar");
+  const header = document.querySelector("header");
+  hamberger.addEventListener("click", function () {
+    sidebar.classList.toggle("hide-sidebar");
+    header.classList.toggle("header-full");
 
-        if(sidebar.classList.contains('hide-sidebar')){
-            hamberger.innerHTML = '☰';
-        }else{
-            hamberger.innerHTML = '❌';
-        }
-    })
+    if (sidebar.classList.contains("hide-sidebar")) {
+      hamberger.innerHTML = "☰";
+    } else {
+      hamberger.innerHTML = "❌";
+    }
+  });
 }
 
 toggleSidebar();
+

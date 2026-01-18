@@ -43,12 +43,41 @@
                 <div class="profile"></div>
             </header>
             <!-- Content -->
-            <div class="content"></div>
+            <div class="content">
+                <div class="card-body mt-5">
+                    <div class="card mt-5">
+                        <div class="row mt-5">
+                            <!-- Gender wise students -->
+                            <div class="col-sm-6">
+                                <div class="hight-400" id="genderWiseStudents"></div>
+                            </div>
+
+                            <!-- Old/New Students -->
+                            <div class="col-sm-6">
+                                <div class="hight-400" id="oldNewStudents">
+                                </div>
+                            </div>
+
+                            <!-- Total Present/Absent Students  -->
+                            <div class="col-sm-12 ">
+                                <div class="calender">                                   
+                                    <input type="date" id="dateFilter" class="form-control" onchange="updateChart()">
+                                </div>
+                                <div id="studentAttendance" class="hight-400"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Footer -->
-            <footer></footer>
+            <footer>&copy; 2026 by <span>Ashkar School</span></footer>
         </div>
     </div>
+    <!-- High Chart CDN -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="./assets/js/hiecharts.js"></script>
     <script src="./assets/js/bootstrapJS/bootstrap.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>

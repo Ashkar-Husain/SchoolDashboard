@@ -185,11 +185,12 @@
 
 .main {
   flex: 1;
-  background-color: red;
+  background-color: #f1f1f1;
   min-height: 100vh;
   overflow: auto;
 }
 
+/* Header */
 header {
   width: 100%;
   height: 80px;
@@ -197,10 +198,20 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  /* position: relative; */
   padding: 0 30px;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
-  cursor: pointer;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 20%;
+  overflow: auto;
+  transition: left 0.4s ease;
+  z-index: 1000;
+}
+
+.header-full {
+  left: 0;
 }
 
 header .hamberger {
@@ -208,15 +219,21 @@ header .hamberger {
   padding: 5px 8px;
   border-radius: 6px;
   background-color: #fff;
+  cursor: pointer;
 }
 header .hamberger:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 .content {
-  background-color: gray;
-  width: 100%;
-  height: 100vh;
+  background-color: #f1f1f1;
+  flex: 1;
+  min-height: 100vh;
+  padding: 50px 20px;
+}
+
+.card {
+  padding: 0 20px 50px;
 }
 
 /* Footer */
@@ -224,4 +241,32 @@ footer {
   width: 100%;
   height: 80px;
   background-color: var(--bg-primary);
+  text-align: center;
+  line-height: 80px;
+  color: var(--color-white);
+  font-size: 22px;
+  font-weight: 300;
+  
+}
+
+footer span{
+    position: relative;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+footer span::after{
+   content: '';
+   height: 4px;
+   width: 50%;
+   background-color: var(--color-white);
+   position: absolute;
+   top: 100%;
+   left: 0;
+   border-radius: 6px;
+   transition: width 0.4s ease;
+}
+
+footer:hover span::after{
+    width: 25%;
 }
