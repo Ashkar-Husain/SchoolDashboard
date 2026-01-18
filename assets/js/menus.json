@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Admission Management",
+    "icon": "🏫",
+    "submenu": [
+      "Setup",
+      "Student Listing",
+      "Fill Admission Form",
+      "Reports"
+    ]
+  },
+  {
+    "title": "Student Management",
+    "icon": "👨‍🎓",
+    "submenu": [
+      "Student Profile",
+      "Promotions",
+      "ID Cards",
+      "Student Reports"
+    ]
+  },
+  {
+    "title": "School Library",
+    "icon": "📚",
+    "submenu": [
+      "Book Setup",
+      "Issue Books",
+      "Return Books",
+      "Library Reports"
+    ]
+  },
+  {
+    "title": "Fee Management",
+    "icon": "💰",
+    "submenu": [
+      "Fee Structure",
+      "Fee Collection",
+      "Due Fees",
+      "Fee Reports"
+    ]
+  },
+  {
+    "title": "Transport Management",
+    "icon": "🚌",
+    "submenu": [
+      "Route Setup",
+      "Vehicle Management",
+      "Driver Management",
+      "Transport Reports"
+    ]
+  },
+  {
+    "title": "HRMS",
+    "icon": "👔",
+    "submenu": [
+      "Employee Setup",
+      "Attendance",
+      "Payroll",
+      "HR Reports"
+    ]
+  },
+  {
+    "title": "Attendance",
+    "icon": "📋",
+    "submenu": [
+      "Student Attendance",
+      "Staff Attendance",
+      "Monthly Summary",
+      "Attendance Reports"
+    ]
+  },
+  {
+    "title": "Examination",
+    "icon": "📝",
+    "submenu": [
+      "Exam Setup",
+      "Admit Card",
+      "Marks Entry",
+      "Results"
+    ]
+  },
+  {
+    "title": "Timetable",
+    "icon": "🕒",
+    "submenu": [
+      "Class Timetable",
+      "Teacher Timetable",
+      "Room Allocation",
+      "Timetable Reports"
+    ]
+  },
+  {
+    "title": "Hostel Management",
+    "icon": "🏠",
+    "submenu": [
+      "Room Setup",
+      "Student Allocation",
+      "Hostel Fees",
+      "Hostel Reports"
+    ]
+  },
+  {
+    "title": "Inventory",
+    "icon": "📦",
+    "submenu": [
+      "Item Setup",
+      "Stock In",
+      "Stock Out",
+      "Inventory Reports"
+    ]
+  },
+  {
+    "title": "Accounts",
+    "icon": "📊",
+    "submenu": [
+      "Income",
+      "Expenses",
+      "Vouchers",
+      "Account Reports"
+    ]
+  },
+  {
+    "title": "Online Classes",
+    "icon": "💻",
+    "submenu": [
+      "Create Class",
+      "Schedule",
+      "Recorded Sessions",
+      "Class Reports"
+    ]
+  },
+  {
+    "title": "Notice Board",
+    "icon": "📢",
+    "submenu": [
+      "Create Notice",
+      "Student Notices",
+      "Staff Notices",
+      "Archive"
+    ]
+  },
+  {
+    "title": "Certificate Management",
+    "icon": "📜",
+    "submenu": [
+      "Generate Certificate",
+      "Transfer Certificate",
+      "Bonafide Certificate",
+      "Reports"
+    ]
+  },
+  {
+    "title": "SMS / Email",
+    "icon": "📩",
+    "submenu": [
+      "Send SMS",
+      "Send Email",
+      "Templates",
+      "Delivery Reports"
+    ]
+  },
+  {
+    "title": "User Management",
+    "icon": "👥",
+    "submenu": [
+      "Create User",
+      "Roles & Permissions",
+      "User Activity",
+      "Access Logs"
+    ]
+  },
+  {
+    "title": "Lead Board",
+    "icon": "🎯",
+    "submenu": [
+      "Add Lead",
+      "Lead Listing",
+      "Follow Ups",
+      "Lead Reports"
+    ]
+  },
+  {
+    "title": "Settings",
+    "icon": "⚙️",
+    "submenu": [
+      "School Profile",
+      "Session Settings",
+      "Backup",
+      "System Settings"
+    ]
+  },
+  {
+    "title": "Reports Dashboard",
+    "icon": "📈",
+    "submenu": [
+      "Student Reports",
+      "Finance Reports",
+      "HR Reports",
+      "Custom Reports"
+    ]
+  }
+]
